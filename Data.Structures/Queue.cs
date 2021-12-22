@@ -26,6 +26,8 @@ namespace Data.Structures
         {
             objects = new T[len];
             length = len;
+            head = 0;
+            tail = 0;
         }
 
         public void Enqueue(T obj)
