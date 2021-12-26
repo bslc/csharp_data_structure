@@ -1,4 +1,10 @@
 ﻿// incomplete implementation of two stack in one array
+//
+// One would implment two stacks in one array by having one stack at one end and
+// the other at the other end. Each stach would add towards the middle of the
+// array. We would check for the overflow condition if both pointers are
+// pointing to the same address.
+//
 // Cormen et al. pg 235
 // 10.1-2 
 
